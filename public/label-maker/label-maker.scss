@@ -1,0 +1,16 @@
+.label-maker {
+    textarea {
+        display: block;
+    }
+
+    .preview {
+        display: inline-block;
+        border: 1px solid black;
+        min-height: 86px;
+        min-width: 86px;
+
+        img {
+            display: block;
+        }
+    }
+}

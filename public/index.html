@@ -1,0 +1,15 @@
+<!doctype html>
+
+<body>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+	<!--<script src="build.js"></script>-->
+    <script>
+        var env = {};
+
+        System.import('./app.js').then(function(App)
+        {
+            window.app = new App.default(env);
+        });
+    </script>
+</body>
